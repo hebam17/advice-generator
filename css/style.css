@@ -21,6 +21,7 @@ body {
   background: #323a49;
   border-radius: 0.6rem;
   text-align: center;
+  font-family: "Manrope", sans-serif;
 }
 
 #container #advice {
@@ -35,6 +36,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#container #advice #advice-info {
+  color: #52ffa8;
+}
+
+#container #advice #advice-info :not(#advice-num) {
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  margin-right: 0.7rem;
 }
 
 #container #advice #advice-content {
