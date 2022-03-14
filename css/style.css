@@ -17,7 +17,7 @@ body {
           align-items: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #container {
@@ -100,5 +100,12 @@ body {
 
 #container #generator img {
   width: 85%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  #container {
+    width: 70vw !important;
+    font-size: 22px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
