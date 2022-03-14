@@ -11,7 +11,7 @@ const adviceGenerator = async () => {
     console.log(data.slip);
     // add the data the elements
     adviceNum.innerText = `# ${data.slip.id}`;
-    adviceContent.innerText = data.slip.advice;
+    adviceContent.innerText = `“${data.slip.advice}”`;
   } catch (err) {
     console.log(err);
   }
