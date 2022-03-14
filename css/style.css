@@ -92,6 +92,12 @@ body {
   right: calc((var(--main-width) / 2) - 1.6rem);
 }
 
+#container #generator:hover {
+  -webkit-box-shadow: 0px 0px 32px 0px #52ffa8;
+          box-shadow: 0px 0px 32px 0px #52ffa8;
+  cursor: pointer;
+}
+
 #container #generator img {
   width: 85%;
 }
