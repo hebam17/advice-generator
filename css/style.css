@@ -71,8 +71,8 @@ body {
 
 #container #generator {
   border-radius: 50%;
-  padding: 0.9rem;
-  width: 3.2rem;
+  padding: 1rem;
+  width: 3.5rem;
   background: #52ffa8;
   border: none;
   outline: none;
@@ -89,7 +89,7 @@ body {
           box-sizing: border-box;
   position: absolute;
   top: calc(100% - 1.6rem);
-  right: calc((var(--main-width) / 2) - 1.6rem);
+  right: calc((var(--main-width) / 2) - 1.75rem);
 }
 
 #container #generator:hover {
@@ -113,7 +113,7 @@ body {
     font-size: 22px;
   }
   #generator {
-    right: calc(35vw - 1.6rem) !important;
+    right: calc(35vw - 1.75rem) !important;
   }
 }
 
@@ -123,7 +123,7 @@ body {
     font-size: 17px;
   }
   #generator {
-    right: calc(45vw - 1.6rem) !important;
+    right: calc(45vw - 1.75rem) !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
